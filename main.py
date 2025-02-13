@@ -46,7 +46,7 @@ def get_integration_json(request: Request):
                 "app_name": "Uptime Monitor",
                 "app_description": "A local uptime monitor",
                 "app_logo": "https://i.imgur.com/lZqvffp.png",
-                "app_url": base_url,
+                "app_url": "https://telex-fastapi-uptime-monitor-tzw2.onrender.com",
                 "background_color": "#fff",
             },
             "is_active": False,
@@ -66,7 +66,7 @@ def get_integration_json(request: Request):
                 },
             ],
             "target_url": "",
-            "tick_url": f"{base_url}/tick"
+            "tick_url": "https://telex-fastapi-uptime-monitor-tzw2.onrender.com/tick"
         }
     }
 
